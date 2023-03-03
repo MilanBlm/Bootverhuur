@@ -1,0 +1,248 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+}
+.page{
+    padding: 60px 60px;
+    height: auto;
+    
+}
+.page1{
+    padding: 60px 60px;
+    height: auto;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3) ), url(../../images/bootje.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.content{
+    width: 100%;
+    height: auto;
+   
+}
+.container1{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+}
+.container-registreren{
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 0px 40px;
+
+}
+.container2{
+    height: 500px;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../../images/depositphotos_8847381-stock-photo-italy-sardinia-tyrrhenian-sea-luxury.jpg); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container5
+{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+}
+.container3{
+    height: auto;
+    background-color: lightgrey;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.text1
+{
+    color: rgb(92, 194, 228);
+    font-size: 45px;
+    font-weight: bold;
+    align-items: right;
+    padding-top: 50px;
+    padding-left: 550px;
+    
+}
+.li{
+    text-align: center;
+    list-style-type: none;
+    font-size: 14px;
+    margin: 50px;
+}
+.a{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+.footerblok1{
+    width: 380px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.footerblok2{
+    width: 380px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.footerblok3{
+    width: 380px;
+    height: 200px;
+    margin-top: 80px;
+}
+.adres{
+    text-align: left;
+    margin-left: 35px;
+}
+.connect
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+.inputRow-registreren{
+    margin-bottom: 20px;
+}
+
+
+label{
+    width: 100px;
+    display: inline-block;
+}
+
+input[type=text]{
+    width: 300px;
+}
+
+/* boot-assortiment*/
+.container4{
+    height: 600px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: center;
+    align-content: center;
+}
+.rij1{
+    width: 1000px;
+    background-image: url(speedboot1.jpg);
+    
+}
+.container-contanct{
+    height: 250px;
+    ;
+}
+.reseveren{
+    width: 20px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 10px 22px 12px 22px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+.image1
+{
+    background-image: url(7876733_0_100520210952_1.jpg);
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+}
+.flexbox{
+    display: flex;
+}
+.colorbox{
+background-color: lightcyan;
+}
+.colortxt{
+    color: white;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+input[type=text] {
+    text-indent: 5px;
+    font-size: 12.6pt;
+    border-radius: 5px;
+    border: solid 1.5px #D3D3D3;
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+  }
+input[type=text]:hover{
+    box-shadow: 0 0 10pt 1.5pt #D3D3D3;
+  }
+input[type=text]:focus {
+box-shadow: 0 0 10pt 5pt #D3D3D3;
+outline-width: 0px;
+
+}
+input[type=email] {
+    text-indent: 5px;
+    font-size: 12.6pt;
+    border-radius: 5px;
+    border: solid 1.5px #D3D3D3;
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+  }
+input[type=email]:hover{
+    box-shadow: 0 0 10pt 1.5pt #D3D3D3;
+  }
+input[type=email]:focus {
+box-shadow: 0 0 10pt 5pt #D3D3D3;
+outline-width: 0px;
+}
+
+input[type=password] {
+    text-indent: 5px;
+    font-size: 12.6pt;
+    border-radius: 5px;
+    border: solid 1.5px #D3D3D3;
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+  }
+input[type=password]:hover{
+    box-shadow: 0 0 10pt 1.5pt #D3D3D3;
+  }
+input[type=password]:focus {
+box-shadow: 0 0 10pt 5pt #D3D3D3;
+outline-width: 0px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
